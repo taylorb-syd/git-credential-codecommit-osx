@@ -15,4 +15,4 @@ To install:
 
 To set this as the default, use the following command:
 
-    git config --system --set credential.helper '!git-credential-codecommit-osx $@'
+    git config --system --add credential.helper '!git-credential-codecommit-osx $@'
