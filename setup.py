@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name = 'git-credential-codecommit-osx',
-    vesrion = '0.1.0',
+    version = '0.1.0',
     description = 'OS X specific Git Credential Helper',
     long_description = 'Forwards onto either the CodeCommit Credential Helper or the OS X Keychain Credential Helper depending on URL',
     url = 'https://github.com/NightKhaos/git-credential-codecommit-osx',
