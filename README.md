@@ -13,6 +13,7 @@ To install:
 
 ## Usage
 
-To set this as the default, use the following command:
+To set this as the default, use the following commands:
 
+    git config --system --unset credential.helper
     git config --system --add credential.helper '!git-credential-codecommit-osx $@'
